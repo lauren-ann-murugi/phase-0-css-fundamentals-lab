@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align:center;
+}
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
+  display: inline-block;
+  background-color: lightgray; 
+}
+img {
+  display:block;
+  margin: auto;
+  width: 700px;
+}
+figcaption{
+  text-align: center;
+}
+#featured-property p {
+  text-align: center;
+  margin: 250px;
+  width: 750px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#details {
+  background-color: red;
+  overflow: hidden;
+  color: white;
+  margin-top: 20px;
+}
+#details div {
+  float: left;
+  width: 25%;text-align: center;
+  padding 10px
+}
